@@ -1,24 +1,28 @@
 /*
-Error: File to import not found or unreadable: fonts.
-        on line 9 of main.scss
+Error: Invalid CSS after "": expected selector or at-rule, was "/* <link rel="s..."
+        on line 1 of fonts.scss
+        from line 9 of main.scss
 
+1: /* <link rel="stylesheet" href="https://use.typekit.net/hgw3awz.css">
+2: 
+3: GriffithGothicCond Bold
 4: 
-5: // sass main.scss ../style.min.css --style=compressed
-6: // sass --watch main.scss:../style.min.css --style=compressed
-7: 
-8: @import 'normalize';
-9: @import 'fonts';
-10: @import 'skeleton';
-11: @import 'header';
-12: @import 'footer';
+5: font-family: griffith-gothic-condensed, sans-serif;
+6: 
 
 Backtrace:
+fonts.scss:1
 main.scss:9
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:67:in `rescue in import'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:44:in `import'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:28:in `imported_file'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/import_node.rb:37:in `css_import?'
-C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:310:in `visit_import'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:42:in `parse'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
+C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
 C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
 C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
 C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
@@ -58,4 +62,4 @@ C:/Ruby30-x64/lib/ruby/gems/3.0.0/gems/sass-listen-4.0.0/lib/sass-listen/interna
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: fonts.\A         on line 9 of main.scss\A \A 4: \A 5: // sass main.scss ../style.min.css --style=compressed\A 6: // sass --watch main.scss:../style.min.css --style=compressed\A 7: \A 8: @import 'normalize';\A 9: @import 'fonts';\A 10: @import 'skeleton';\A 11: @import 'header';\A 12: @import 'footer';"; }
+  content: "Error: Invalid CSS after \"\": expected selector or at-rule, was \"/* <link rel=\"s...\"\A         on line 1 of fonts.scss\A         from line 9 of main.scss\A \A 1: /* <link rel=\"stylesheet\" href=\"https://use.typekit.net/hgw3awz.css\">\A 2: \A 3: GriffithGothicCond Bold\A 4: \A 5: font-family: griffith-gothic-condensed, sans-serif;\A 6: "; }
