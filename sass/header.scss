@@ -8,15 +8,20 @@ header {
     overflow: hidden;
 
     #decoration {
-            position: absolute;
-            height: 393px;
-            top: 0;
-            right: -4px;
-            z-index: 2;
+        position: absolute;
+        height: 393px;
+        top: 0;
+        right: -4px;
+        z-index: 2;
     }
 
     #picture-worker {
         margin-top: -140px;
+    }
+
+    .logo-img {
+        width: 35%;
+        padding-top: 20px;
     }
 
     .decoration-line {
@@ -27,21 +32,33 @@ header {
         display: block;
         height: 100%;
         background-size: contain;
-        background-repeat: no-repeat;
-    
-        &.pink {
-            background-image: url("img/line-pink.png");
-            right: 0;
-        }
-    
-        &.white {
-            background-image: url("img/line-black.png");
-            right: 35px;
-        }
-    
-        &.black {
-            background-image: url("img/line-green.png");
-            right: 60px;
+    }
+    background-repeat: no-repeat;
+
+    &.pink {
+        background-image: url("img/line-pink.png");
+        right: 0;
+    }
+
+    &.white {
+        background-image: url("img/line-black.png");
+        right: 35px;
+    }
+
+    &.black {
+        background-image: url("img/line-green.png");
+        right: 60px;
+    }
+}
+
+nav ul {
+    display: none;
+}
+
+button {
+    img {
+        &#burger-menu-close {
+            display: none;
         }
     }
 }
