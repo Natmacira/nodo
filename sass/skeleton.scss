@@ -31,30 +31,8 @@ button {
 	cursor: pointer;
 }
 
-.decoration-line {
-    position: absolute;
-    width: 25%;
-    top: 0;
-    right: 0;
-    display: block;
-    height: 100%;
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    &.pink {
-        background-image: url("img/pink-line.png");
-        right: 0;
-    }
-
-    &.white {
-        background-image: url("img/pink-line.png");
-        right: 35px;
-    }
-
-    &.black {
-        background-image: url("img/pink-line.png");
-        right: 60px;
-    }
+main {
+    padding: 0 10px ;
 }
 
 .instagram-link,

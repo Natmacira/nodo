@@ -1,5 +1,6 @@
 header {
-    background-image: url(img/background-header.png);
+    padding: 0 10px;
+    background-image: url(img/background-header-mobile.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
@@ -16,5 +17,31 @@ header {
 
     #picture-worker {
         margin-top: -140px;
+    }
+
+    .decoration-line {
+        position: absolute;
+        width: 25%;
+        top: 0;
+        right: 0;
+        display: block;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    
+        &.pink {
+            background-image: url("img/line-pink.png");
+            right: 0;
+        }
+    
+        &.white {
+            background-image: url("img/line-black.png");
+            right: 35px;
+        }
+    
+        &.black {
+            background-image: url("img/line-green.png");
+            right: 60px;
+        }
     }
 }
