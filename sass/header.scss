@@ -1,7 +1,20 @@
 header {
-    background-image: url('img/background-header.png');
+    background-image: url(img/background-header.png);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: contain;
-    
+    position: relative;
+    overflow: hidden;
+
+    #decoration {
+            position: absolute;
+            height: 393px;
+            top: 0;
+            right: -4px;
+            z-index: 2;
+    }
+
+    #picture-worker {
+        margin-top: -140px;
+    }
 }
