@@ -60,7 +60,7 @@ h3 {
         font-size: 32;
         font-weight: 400;
         margin: 0 auto;
-        max-width: 102px;
+       
     }
 }
 
@@ -77,11 +77,9 @@ button {
     background-image: url();
 }
 
-#recuperamos-section { 
-    
-        padding-left: 27%;
+#recuperamos-section {
+    padding-left: 27%;
     p {
-
         font-size: 13px;
         color: #333333;
         font-family: "DM Sans";
@@ -105,7 +103,6 @@ button {
         align-items: center;
         max-width: 480px;
         img.external-logo {
-
             &.one {
                 width: 42px;
                 height: 48px;
@@ -117,14 +114,52 @@ button {
             &.three {
                 width: 70px;
                 height: 22px;
+            }
         }
     }
 }
-}
 
 #el-problema {
+    h2 {
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
     img {
         width: 100%;
         max-width: 480px;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        article {
+            max-width: 240px;
+            text-align: center;
+            
+
+            h3 {
+                font-size: 32px;
+                border-radius: 88px;
+                padding: 22px 48px;
+
+                &.green {
+                    background-color: #C1EDCC;
+                }
+
+                &.pink {
+                    background-color: #F5BEAE;
+                }
+
+                
+            }
+            p {
+                font-size: 13px;
+                padding: 12px 0 47px;
+                font-family: "DM Sans";
+            }
+        }
     }
 }
