@@ -1,4 +1,6 @@
-	// Hamburger Menu
+
+   window.addEventListener('load', function () { 
+    // Hamburger Menu
 	var hamburgerButton = document.getElementById('burger-menu-button');
 
 	hamburgerButton.addEventListener('click', function () {
@@ -11,3 +13,4 @@
 			document.body.classList.remove('hamburger-menu-active');
 		});
 	}
+});
