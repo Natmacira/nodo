@@ -1,23 +1,36 @@
 header {
     padding: 0 10px;
     background-image: url(img/background-header-mobile.png);
-    background-repeat: no-repeat;
     background-position: top;
+    background-repeat: no-repeat;
     background-size: contain;
     position: relative;
     overflow: hidden;
-
-    #decoration {
-        position: absolute;
-        height: 393px;
-        top: 0;
-        right: -4px;
-        z-index: 2;
+    
+    h1 {
+        font-size: 30px;
+        font-family: griffith-gothic-condensed, sans-serif;
+        color: white;
+        font-weight: 900;
+        margin-top: -18px;
     }
+
+
+    // #decoration {
+    //     position: absolute;
+    //     height: 393px;
+    //     top: 0;
+    //     right: -4px;
+    //     z-index: 2;
+    // }
 
     #picture-worker {
-        margin-top: -140px;
+        margin-left: -10px;
+        margin-top: 25px;
+        z-index: 1;
+        width: 90%;
     }
+    
 
     .logo-img {
         width: 35%;
@@ -32,33 +45,40 @@ header {
         display: block;
         height: 100%;
         background-size: contain;
+        background-repeat: no-repeat;
+
+        &.pink {
+            background-image: url(img/line-pink.png);
+            right: -39px;
+            z-index: 2;
+            top: -13px;
+            width: 40%;
+        }
+
+        &.green {
+            background-image: url(img/line-green.png);
+            right: -20px;
+            z-index: 0;
+            top: -8px;
+            width: 40%;
+        }
+
+        &.black {
+            background-image: url("img/line-black.png");
+            right: -1px;
+            width: 40%;
+        }
     }
-    background-repeat: no-repeat;
 
-    &.pink {
-        background-image: url("img/line-pink.png");
-        right: 0;
+    nav ul {
+        display: none;
     }
 
-    &.white {
-        background-image: url("img/line-black.png");
-        right: 35px;
-    }
-
-    &.black {
-        background-image: url("img/line-green.png");
-        right: 60px;
-    }
-}
-
-nav ul {
-    display: none;
-}
-
-button {
-    img {
-        &#burger-menu-close {
-            display: none;
+    button {
+        img {
+            &#burger-menu-close {
+                display: none;
+            }
         }
     }
 }
