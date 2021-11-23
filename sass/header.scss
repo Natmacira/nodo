@@ -8,11 +8,12 @@ header {
     overflow: hidden;
     
     h1 {
-        font-size: 30px;
+        font-size: 35px;
         font-family: griffith-gothic-condensed, sans-serif;
         color: white;
         font-weight: 900;
-        margin-top: -18px;
+        margin-top: -23px;
+    
     }
 
 
@@ -28,7 +29,8 @@ header {
         margin-left: -10px;
         margin-top: 25px;
         z-index: 1;
-        width: 90%;
+        width: 95%;
+        
     }
     
 
@@ -79,6 +81,18 @@ header {
             &#burger-menu-close {
                 display: none;
             }
+        }
+    }
+
+    p {
+        font-size: 13px;
+        color: #333333;
+        font-family: 'DM Sans';
+        width: 65%;
+        margin-left: 87px;
+
+        &.recuperamos-y-distribuimos {
+            margin-top: 55px;
         }
     }
 }
