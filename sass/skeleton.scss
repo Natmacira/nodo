@@ -77,14 +77,54 @@ button {
     background-image: url();
 }
 
-#recuperamos-section { p {
+#recuperamos-section { 
+    
+        padding-left: 27%;
+    p {
 
-
-   
         font-size: 13px;
         color: #333333;
         font-family: "DM Sans";
-        width: 65%;
-        margin-left: 87px;
+        width: 88%;
+        max-width: 233px;
+    }
+}
+
+#quienes-somos {
+    h2 {
+        padding-top: 50px;
+    }
+
+    h3 {
+        max-width: 480px;
+    }
+
+    article {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 480px;
+        img.external-logo {
+
+            &.one {
+                width: 42px;
+                height: 48px;
+            }
+            &.two {
+                width: 116px;
+                height: 31px;
+            }
+            &.three {
+                width: 70px;
+                height: 22px;
+        }
+    }
+}
+}
+
+#el-problema {
+    img {
+        width: 100%;
+        max-width: 480px;
     }
 }
