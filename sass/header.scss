@@ -1,12 +1,81 @@
-header {
+body { 
+    
+    // &.hamburger-menu-active {
+	// 	@media (max-width: 1039px) {
+	// 		overflow: hidden;
+
+	// 		header {
+	// 			background-color: #000000;
+	// 			position: fixed;
+	// 			width: 100%;
+	// 			height: 100%;
+	// 			z-index: 3;
+	// 			padding: 0;
+
+	// 			.header-inner-container {
+	// 				#logo {
+	// 					margin-left: 40px;
+	// 				}
+
+	// 				nav#main-menu ul {
+	// 					display: block;
+
+	// 					li {
+	// 						a {
+	// 							padding: 35px 20px;
+	// 							@media (min-width: 640px) {
+	// 								padding: 50px 40px;
+	// 							}
+	// 							display: block;
+	// 						}
+	// 						&.menu-item {
+	// 							border-bottom: 1px solid #8f8989;
+
+	// 							&.who-we-are {
+	// 								border-top: 1px solid #8f8989;
+	// 							}
+	// 						}
+
+	// 						&#footer-burger-menu {
+	// 							display: flex;
+	// 							justify-content: space-between;
+	// 							position: fixed;
+	// 							width: 100%;
+	// 							bottom: 35px;
+	// 							padding: 0 20px;
+	// 							@media (min-width: 640px) {
+	// 								padding: 0 40px;
+	// 								bottom: 55px;
+	// 							}
+	// 						}
+	// 					}
+	// 				}
+	// 			}
+
+	// 			#burger-menu-button {
+	// 				#burger-menu-open {
+	// 					display: none;
+	// 				}
+
+	// 				#burger-menu-close {
+	// 					display: block;
+	// 					margin-right: 40px;
+	// 				}
+	// 			}
+	// 		}
+	// 	}
+	// }
+
+    
+    header {
     padding: 0 10px;
-    background-image: url(img/background-header-mobile.png) ;
+    background-image: url(img/background-header-mobile.png);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     overflow: hidden;
-    
+
     h1 {
         font-size: 31px;
         font-family: griffith-gothic-condensed, sans-serif;
@@ -19,7 +88,6 @@ header {
         max-width: 300px;
         padding-bottom: 25px;
     }
-
 
     // #decoration {
     //     position: absolute;
@@ -37,7 +105,6 @@ header {
         position: relative;
         max-width: 500px;
     }
-    
 
     .logo-img {
         width: 50%;
@@ -79,18 +146,14 @@ header {
     }
 
     nav {
-         
         display: flex;
         justify-content: space-between;
 
-        
         button {
-
             padding: 20px 0 0;
-            img {
-                &#burger-menu-close {
-                    display: none;
-                }
+
+            img.burger-menu-close {
+                display: none;
             }
         }
 
@@ -98,9 +161,5 @@ header {
             display: none;
         }
     }
-    
-    
-
-
-    
+}
 }
