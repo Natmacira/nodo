@@ -1,6 +1,6 @@
 header {
     padding: 0 10px;
-    background-image: url(img/background-header-mobile.png);
+    background-image: url(img/background-header-mobile.png) ;
     background-position: top;
     background-repeat: no-repeat;
     background-size: contain;
@@ -84,15 +84,5 @@ header {
         }
     }
 
-    p {
-        font-size: 13px;
-        color: #333333;
-        font-family: 'DM Sans';
-        width: 65%;
-        margin-left: 87px;
-
-        &.recuperamos-y-distribuimos {
-            margin-top: 55px;
-        }
-    }
+    
 }
