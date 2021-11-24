@@ -77,8 +77,16 @@ button {
     background-image: url();
 }
 
+section {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 #recuperamos-section {
     padding-left: 27%;
+    max-width: none;
+    margin: auto;
+
     p {
         font-size: 13px;
         color: #333333;
@@ -160,6 +168,15 @@ button {
                 padding: 12px 0 47px;
                 font-family: "DM Sans";
             }
+        }
+    }
+}
+
+#nuestra-mision {
+    div.combatir-reducir {
+        p {
+            font-size: 15px;
+            font-family: "DM Sans";
         }
     }
 }
