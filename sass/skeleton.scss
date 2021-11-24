@@ -384,7 +384,7 @@ section {
             }
             &.corteva {
                 width: 59px;
-                height: 42px;
+                
             }
             &.terramar {
                 width: 94px;
@@ -395,5 +395,15 @@ section {
                 height: 21px;
             }
         }
+    }
+}
+
+#imagenes-galeria-footer {
+    padding: 94px 0 0;
+    width: 100%;
+    max-width: 400px;
+
+    img#footer-image-desktop {
+        display: none;
     }
 }
