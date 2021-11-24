@@ -291,7 +291,6 @@ section {
             border-radius: 88px;
             padding: 22px 48px;
             max-width: 250px;
-            
 
             &.green {
                 background-color: #c1edcc;
@@ -305,7 +304,6 @@ section {
             font-size: 13px;
             padding: 12px 0 47px;
             font-family: "DM Sans";
-           
         }
     }
 }
@@ -313,5 +311,26 @@ section {
 #alcances {
     img {
         height: 400px;
+        width: 218px;
+        margin: 0 auto;
+        display: block;
+    }
+    h2 {
+        padding-top: 40px;
+    }
+    p {
+        font-size: 15px;
+        font-family: "DM Sans";
+    }
+
+    ul {
+        font-family: "Work Sans";
+        font-size: 15px;
+        color: #0066ff;
+        text-transform: uppercase;
+        font-weight: 300;
+        padding-top: 32px;
+        display: flex;
+        flex-wrap: wrap;
     }
 }
