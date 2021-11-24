@@ -210,6 +210,11 @@ section {
     }
 }
 
+.marquee {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 800px;
+
 marquee {
     text-transform: uppercase;
     width: 100%;
@@ -229,12 +234,26 @@ marquee {
     }
 }
 
+}
+
 #objetivos {
     background-color: #f5beae;
+    max-width: 800px;
+
+    * {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    img.marquee-picture {
+        display: block;
+        width: 100%;
+    }
 
     h2 {
         color: #f5beae;
-        margin-top: -73px;
+        margin-top: -68px;
+        padding-bottom: 30px;
     }
 
     h3 {
@@ -247,8 +266,13 @@ marquee {
         font-size: 15px;
         font-family: "DM Sans";
     }
-}
+    
+    .boxes-information {
+        width: 140px;
+    }
 
-.boxes-information {
-    width: 140px;
+    div {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
