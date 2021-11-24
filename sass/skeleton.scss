@@ -31,10 +31,6 @@ button {
     cursor: pointer;
 }
 
-main {
-    padding: 40px 10px 0;
-}
-
 .instagram-link,
 .linkedin-link {
     display: inline-block;
@@ -60,7 +56,6 @@ h3 {
         font-size: 32;
         font-weight: 400;
         margin: 0 auto;
-       
     }
 }
 
@@ -80,6 +75,7 @@ button {
 section {
     max-width: 400px;
     margin: 0 auto;
+    padding: 40px 10px 0;
 }
 
 #recuperamos-section {
@@ -146,7 +142,6 @@ section {
         article {
             max-width: 240px;
             text-align: center;
-            
 
             h3 {
                 font-size: 32px;
@@ -154,14 +149,12 @@ section {
                 padding: 22px 48px;
 
                 &.green {
-                    background-color: #C1EDCC;
+                    background-color: #c1edcc;
                 }
 
                 &.pink {
-                    background-color: #F5BEAE;
+                    background-color: #f5beae;
                 }
-
-                
             }
             p {
                 font-size: 13px;
@@ -173,16 +166,20 @@ section {
 }
 
 #nuestra-mision {
-    div.combatir-reducir {
-        p {
-            font-size: 15px;
-            font-family: "DM Sans";
-        }
+    p {
+        font-size: 15px;
+        font-family: "DM Sans";
     }
 
     img {
-        padding-top: 40px;
+        padding-top: 45px;
         padding-bottom: 90px;
+    }
+
+    article {
+        :nth-child(3) {
+            padding-top: 50px;
+        }
     }
 
     div.promedios {
@@ -190,5 +187,64 @@ section {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
+
+        h3 {
+            font-size: 32px;
+            border-radius: 88px;
+            padding: 22px 48px;
+
+            &.green {
+                background-color: #c1edcc;
+            }
+
+            &.pink {
+                background-color: #f5beae;
+            }
+        }
+        p {
+            font-size: 13px;
+            padding: 12px 0 47px;
+            font-family: "DM Sans";
+        }
+    }
+}
+
+marquee {
+    text-transform: uppercase;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px 0;
+    font-size: 20px;
+    font-family: griffith-gothic-condensed, sans-serif;
+    margin-bottom: -4px;
+
+    &#marquesina-reducir {
+        background-color: #0066ff;
+        color: white;
+    }
+
+    &#marquesina-personas-beneficidas {
+        background-color: #c1edcc;
+    }
+}
+
+#objetivos {
+    background-color: #f5beae;
+
+    h2 {
+        color: #f5beae;
+        margin-top: -73px;
+    }
+
+    h3 {
+        color: white;
+        font-size: 32px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 15px;
+        font-family: "DM Sans";
     }
 }
