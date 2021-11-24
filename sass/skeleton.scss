@@ -184,4 +184,11 @@ section {
         padding-top: 40px;
         padding-bottom: 90px;
     }
+
+    div.promedios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
