@@ -47,6 +47,11 @@ body {
 		position: relative;
 		overflow: hidden;
 
+		@media (min-width: 640px) {
+			background-image: url(img/background-header-desktop.png);
+			max-height: 700px;
+		}
+
 		h1 {
 			font-size: 31px;
 			font-family: griffith-gothic-condensed, sans-serif;
@@ -77,6 +82,10 @@ body {
 			width: 95%;
 			position: relative;
 			max-width: 500px;
+
+			@media (min-width: 640px) {
+				max-width: 800px;
+			}
 		}
 
 		.logo-img {
@@ -100,6 +109,14 @@ body {
 				z-index: 2;
 				top: -13px;
 				width: 40%;
+
+				@media (min-width: 640px) {
+					right: -47px;
+					z-index: 2;
+					top: -93px;
+					width: 40%;
+					background-position-x: right;
+				}
 			}
 
 			&.green {
@@ -108,6 +125,14 @@ body {
 				z-index: 0;
 				top: -13px;
 				width: 47%;
+
+				@media (min-width: 640px) {
+					right: -2px;
+					z-index: 0;
+					top: -77px;
+					width: 47%;
+					background-position-x: right;
+				}
 			}
 
 			&.black {
@@ -115,6 +140,13 @@ body {
 				right: -17px;
 				width: 55%;
 				top: -3px;
+
+				@media (min-width: 640px) {
+					right: 0;
+					width: 55%;
+					top: -64px;
+					background-position-x: right;
+				}
 			}
 		}
 
