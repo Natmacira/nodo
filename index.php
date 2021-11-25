@@ -1,13 +1,12 @@
 <?php
-
 /**
- * Site Version: 0.1.0
+ * Site Version: 0.2.0
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '0.1.0');
+define('SITE_VERSION', '0.2.0');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -17,8 +16,8 @@ define('SITE_VERSION', '0.1.0');
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Nodo</title>
-	<link rel="stylesheet" href="style.min.css">
-	<script src="js/script.js"></script>
+	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
+	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
 	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon//apple-icon-57x57.png">
 	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon//apple-icon-60x60.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon//apple-icon-72x72.png">
@@ -240,13 +239,13 @@ define('SITE_VERSION', '0.1.0');
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">
-			<img src="img/backgound-footer-mobile.png" alt="" id="footer-image-mobile">
-			<img src="img/pictures-collage.png" alt="" id="footer-image-desktop">
+			<img src="img/backgound-footer-mobile.png" alt="" class="gallery mobile">
+			<img src="img/pictures-collage.png" alt="" class="gallery desktop">
 		</section>
 	</main>
 	<footer>
 		<h2>Hagamos crecer esto <br> juntos. Escribinos a</h2>
-		<a href="mailto:info@nodo.org.ar" class="mail">info@nodo.org.ar</a>
+		<a id="contacto" href="mailto:info@nodo.org.ar" class="mail">info@nodo.org.ar</a>
 		<a href="#"><img class="logo-img" src="img/logo-nodo.png" alt="Logo de Nodo"></a>
 		<ul>
 			<li><a class="instagram-link" href="https://www.instagram.com/" target="_blank">

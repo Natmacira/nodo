@@ -34,18 +34,23 @@ footer {
         text-transform: none;
         position: absolute;
         top: 93px;
-        left: 30px;
+        left: 0;
+        right: 0;
+		margin: auto;
     }
 
     a.mail {
         position: absolute;
         top: 230px;
-        left: 19px;
+        left: 0;
+        right: 0;
+		margin: auto;
         font-size: 32px;
         font-weight: 400;
         font-family: griffith-gothic-condensed, sans-serif;
         background: rgb(193, 237, 204);
         border-radius: 87px;
         padding: 20px 50px;
+		width: 282px;
     }
 }

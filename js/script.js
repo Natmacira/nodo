@@ -1,5 +1,5 @@
 
-   window.addEventListener('load', function () { 
+   window.addEventListener('load', function () {
     // Hamburger Menu
 	var hamburgerButton = document.getElementById('burger-menu-button');
 
@@ -13,4 +13,13 @@
 			document.body.classList.remove('hamburger-menu-active');
 		});
 	}
+
+	// Scrolled Page class
+	window.addEventListener('scroll', function () {
+		if (window.scrollY > 0) {
+			document.body.classList.add('page-scrolled');
+		} else {
+			document.body.classList.remove('page-scrolled');
+		}
+	});
 });

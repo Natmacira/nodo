@@ -1,140 +1,164 @@
 body {
-    //burger menu estilos
-    &.hamburger-menu-active {
-        header {
-            padding: 0;
-        }
+	//burger menu estilos
+	&.hamburger-menu-active {
+		header {
+			padding: 0;
+		}
 
-        nav {
-            ul {
-                display: block;
-                background: white;
-                position: fixed;
-                z-index: 5;
-                width: 100%;
-                height: 100%;
-                color: #0066ff;
-                font-size: 20px;
-                font-family: griffith-gothic-condensed, sans-serif;
-                font-weight: 700;
+		nav {
+			ul {
+				display: block;
+				background: white;
+				position: fixed;
+				z-index: 5;
+				width: 100%;
+				height: 100%;
+				color: #0066ff;
+				font-size: 20px;
+				font-family: griffith-gothic-condensed, sans-serif;
+				font-weight: 700;
 
-                li {
-                    margin: 20px;
-                    border: 1px solid #0066ff;
-                    border-radius: 50px;
-                    padding: 10px 15px;
-                    float: left;
-                    clear: both;
-                }
-            }
+				li {
+					margin: 20px;
+					border: 1px solid #0066ff;
+					border-radius: 50px;
+					padding: 10px 15px;
+					float: left;
+					clear: both;
+				}
+			}
 
-            img.burger-menu-close {
-                display: block;
-                z-index: 6;
-                position: fixed;
-                width: 20px;
-                top: 33px;
-            }
-        }
-    }
+			img.burger-menu-close {
+				display: block;
+				z-index: 6;
+				position: fixed;
+				width: 20px;
+				top: 33px;
+			}
+		}
+	}
 
-    header {
-        padding: 0 10px;
-        background-image: url(img/background-header-mobile.svg);
-        background-position: bottom;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        overflow: hidden;
+	header {
+		padding: 0 10px;
+		background-image: url(img/background-header-mobile.svg);
+		background-position: bottom;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+		overflow: hidden;
 
-        h1 {
-            font-size: 31px;
-            font-family: griffith-gothic-condensed, sans-serif;
-            color: white;
-            font-weight: 900;
-            margin-top: -23px;
-            position: relative;
-            z-index: 4;
-            width: 95%;
-            max-width: 300px;
-            padding-bottom: 25px;
-            margin-left: auto;
-            margin-right: auto;
-        }
+		h1 {
+			font-size: 31px;
+			font-family: griffith-gothic-condensed, sans-serif;
+			color: white;
+			font-weight: 900;
+			margin-top: -23px;
+			position: relative;
+			z-index: 4;
+			width: 95%;
+			max-width: 300px;
+			padding-bottom: 25px;
+			margin-left: auto;
+			margin-right: auto;
+		}
 
-        // #decoration {
-        //     position: absolute;
-        //     height: 393px;
-        //     top: 0;
-        //     right: -4px;
-        //     z-index: 2;
-        // }
+		// #decoration {
+		//     position: absolute;
+		//     height: 393px;
+		//     top: 0;
+		//     right: -4px;
+		//     z-index: 2;
+		// }
 
-        #picture-worker {
-            margin-left: -10px;
-            margin-top: 25px;
-            z-index: 1;
-            width: 95%;
-            position: relative;
-            max-width: 500px;
-        }
+		#picture-worker {
+			margin-left: -10px;
+			margin-top: 25px;
+			z-index: 1;
+			width: 95%;
+			position: relative;
+			max-width: 500px;
+		}
 
-        .logo-img {
-            width: 50%;
-            padding-top: 20px;
-        }
+		.logo-img {
+			width: 50%;
+			padding-top: 20px;
+		}
 
-        .decoration-line {
-            position: absolute;
-            width: 25%;
-            top: 0;
-            right: 0;
-            display: block;
-            height: 100%;
-            background-size: contain;
-            background-repeat: no-repeat;
+		.decoration-line {
+			position: absolute;
+			width: 25%;
+			top: 0;
+			right: 0;
+			display: block;
+			height: 100%;
+			background-size: contain;
+			background-repeat: no-repeat;
 
-            &.pink {
-                background-image: url(img/line-pink.svg);
-                right: -7px;
-                z-index: 2;
-                top: -13px;
-                width: 40%;
-            }
+			&.pink {
+				background-image: url(img/line-pink.svg);
+				right: -7px;
+				z-index: 2;
+				top: -13px;
+				width: 40%;
+			}
 
-            &.green {
-                background-image: url(img/line-green.svg);
-                right: -12px;
-                z-index: 0;
-                top: -13px;
-                width: 47%;
-            }
+			&.green {
+				background-image: url(img/line-green.svg);
+				right: -12px;
+				z-index: 0;
+				top: -13px;
+				width: 47%;
+			}
 
-            &.black {
-                background-image: url("img/line-black.svg");
-                right: -17px;
-                width: 55%;
-                top: -3px;
-            }
-        }
+			&.black {
+				background-image: url("img/line-black.svg");
+				right: -17px;
+				width: 55%;
+				top: -3px;
+			}
+		}
 
-        nav {
-            display: flex;
-            justify-content: space-between;
+		nav {
+			display: flex;
+			justify-content: space-between;
 
-            button {
-                padding: 20px 0 0;
-                z-index: 6;
-                position: relative;
+			button {
+				padding: 20px 0 0;
+				z-index: 6;
+				position: relative;
 
-                img.burger-menu-close {
-                    display: none;
-                }
-            }
+				img.burger-menu-close {
+					display: none;
+				}
+			}
 
-            ul {
-                display: none;
-            }
-        }
-    }
+			ul {
+				display: none;
+			}
+		}
+	}
+
+	&.page-scrolled:not(.hamburger-menu-active) {
+		header {
+			#main-nav {
+				position: fixed;
+				top: 0;
+				width: 100%;
+				background: #0066ff;
+				left: 0;
+				z-index: 6;
+				padding: 0 8px;
+
+				.logo-img {
+					width: 40%;
+					padding-top: 6px;
+					padding-bottom: 2px;
+				}
+
+				#burger-menu-button {
+					padding: 6px 0 0;
+				}
+			}
+		}
+	}
 }
