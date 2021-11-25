@@ -61,8 +61,8 @@ define('SITE_VERSION', '0.2.0');
 				</li>
 			</ul>
 			<button id="burger-menu-button">
-				<img src="img/burger-menu-open (1).png" alt="Burger menu open icon." class="burger-menu-open">
-				<img src="img/burger-menu-close (2).png" alt="Burger menu close icon." class="burger-menu-close">
+				<img src="img/burger-menu-open.png" alt="Burger menu open icon." class="burger-menu-open">
+				<img src="img/burger-menu-close.png" alt="Burger menu close icon." class="burger-menu-close">
 			</button>
 		</nav>
 		<span class="decoration-line pink"></span>
@@ -90,7 +90,7 @@ define('SITE_VERSION', '0.2.0');
 			</article>
 		</section>
 		<section id="el-problema">
-			<img src="img/picture-onions.png" alt="Una imagen de unas manos vaciando una bolsa de arpillera llena de cebollas en una caja que contiene mas cebollas.">
+			<img src="img/picture-onions.jpg" alt="Una imagen de unas manos vaciando una bolsa de arpillera llena de cebollas en una caja que contiene mas cebollas.">
 			<h2>____ El problema</h2>
 			<div>
 				<article>
@@ -122,7 +122,7 @@ define('SITE_VERSION', '0.2.0');
 				<p>El nivel de desperdicio de frutas y verduras en América Latina es cercano al 50% de lo producido,
 					esta problemática es responsable del 8% de los Gases de Efecto Invernadero.</p>
 			</article>
-			<img src="img/picture-truck.png" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
+			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
 				<h3 class="numeros-estadisticas green">78.601</h3>
 				<p>es el promedio de personas beneficiadas por mes</p>
@@ -149,7 +149,7 @@ define('SITE_VERSION', '0.2.0');
 				necesidades alimentarias</marquee>
 		</section>
 		<section id="objetivos">
-			<img class="marquee-picture" src="img/picture-box-worker.png" alt="En la imagen se ve una persona trasladado una caja verde, típica caja donde van verduras y frutas. Se ven unas manos que reciben la caja. La persona tiene un barbijo negro puesto por debajo de la nariz.">
+			<img class="marquee-picture" src="img/picture-box-worker.jpg" alt="En la imagen se ve una persona trasladado una caja verde, típica caja donde van verduras y frutas. Se ven unas manos que reciben la caja. La persona tiene un barbijo negro puesto por debajo de la nariz.">
 			<h2>____ Objetivos</h2>
 			<h3>Modelos de Gestión Sustentable</h3>
 			<p>Tenemos como objetivo estratégico el desarrollo de un modelo de gestión sustentable de rescate de
@@ -239,8 +239,8 @@ define('SITE_VERSION', '0.2.0');
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">
-			<img src="img/backgound-footer-mobile.png" alt="" class="gallery mobile">
-			<img src="img/pictures-collage.png" alt="" class="gallery desktop">
+			<img src="img/background-footer-mobile.jpg" alt="" class="gallery mobile">
+			<img src="img/pictures-collage.jpg" alt="" class="gallery desktop">
 		</section>
 	</main>
 	<footer>
