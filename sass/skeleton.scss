@@ -88,7 +88,8 @@ section {
 
 	@media (min-width: 640px) {
 		max-width: none;
-		padding: 40px 10px 0px 150px;
+		padding: 40px 30px 0 150px;
+		overflow: auto;
 	}
 }
 
@@ -99,6 +100,7 @@ section {
 
 	@media (min-width: 640px) {
 		padding-left: 0;
+		padding-bottom: 2px;
 	}
 
 	p {
@@ -155,13 +157,33 @@ section {
 }
 
 #el-problema {
-	h2 {
-		padding-top: 60px;
-		padding-bottom: 35px;
-	}
 	img {
 		width: 100%;
 		max-width: 480px;
+
+		@media (min-width: 640px) {
+			width: 44%;
+			max-width: none;
+			float: left;
+			margin-top: 125px;
+		}
+	}
+
+	h2,
+	div {
+		@media (min-width: 640px) {
+			width: 44%;
+			float: right;
+		}
+	}
+
+	h2 {
+		padding-top: 60px;
+		padding-bottom: 35px;
+
+		@media (min-width: 640px) {
+			padding-top: 0;
+		}
 	}
 
 	div {
@@ -169,6 +191,10 @@ section {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+
+		@media (min-width: 640px) {
+			padding-right: 120px;
+		}
 
 		article {
 			max-width: 240px;
@@ -185,6 +211,7 @@ section {
 
 				@media (min-width: 640px) {
 					font-size: 46px;
+					display: inline-block;
 				}
 
 				&.green {
@@ -210,6 +237,14 @@ section {
 }
 
 #nuestra-mision {
+	h2 {
+		@media (min-width: 640px) {
+			width: 44%;
+			float: left;
+			margin-top: 150px;
+		}
+	}
+
 	p {
 		font-size: 15px;
 		font-family: "DM Sans";
@@ -218,9 +253,21 @@ section {
 	img {
 		padding-top: 45px;
 		padding-bottom: 90px;
+
+		@media (min-width: 640px) {
+			margin-top: -150px;
+			width: 44%;
+			float: right;
+		}
 	}
 
 	article {
+		@media (min-width: 640px) {
+			width: 44%;
+			float: left;
+			clear: left;
+		}
+
 		:nth-child(3) {
 			padding-top: 50px;
 		}
@@ -233,10 +280,23 @@ section {
 		align-items: center;
 		text-align: center;
 
+		@media (min-width: 640px) {
+			clear: both;
+			display: grid;
+			grid-auto-flow: column;
+			grid-gap: 15%;
+			grid-template-rows: 35% 35%;
+			grid-template-columns: 35% 35%;
+		}
+
 		h3 {
 			font-size: 32px;
 			border-radius: 88px;
 			padding: 22px 48px;
+
+			@media (min-width: 640px) {
+				font-size: 46px;
+			}
 
 			&.green {
 				background-color: $theme-green;
@@ -246,10 +306,15 @@ section {
 				background-color: $theme-pink;
 			}
 		}
+
 		p {
 			font-size: 15px;
 			padding: 12px 0 47px;
 			font-family: "DM Sans";
+
+			@media (min-width: 640px) {
+				font-size: 20px;
+			}
 		}
 	}
 }
@@ -259,6 +324,10 @@ section {
 	padding-right: 0;
 	max-width: 800px;
 
+	@media (min-width: 640px) {
+		max-width: none;
+	}
+
 	marquee {
 		text-transform: uppercase;
 		width: 100%;
@@ -267,6 +336,13 @@ section {
 		font-size: 20px;
 		font-family: griffith-gothic-condensed, sans-serif;
 		margin-bottom: -4px;
+
+		@media (min-width: 640px) {
+			font-size: 43px;
+			height: 117px;
+			line-height: 117px;
+			padding: 0;
+		}
 
 		&#marquesina-reducir {
 			background-color: $theme-blue;
@@ -284,9 +360,20 @@ section {
 	max-width: 800px;
 	margin-top: -1px;
 
+	@media (min-width: 640px) {
+		max-width: none;
+		padding-right: 150px;
+		background: linear-gradient(180deg, $theme-pink 95%, #ffffff 5%);
+	}
+
 	* {
 		max-width: 400px;
 		margin: 0 auto;
+
+		@media (min-width: 640px) {
+			max-width: none;
+			width: 50%;
+		}
 	}
 
 	img.marquee-picture {
@@ -304,11 +391,32 @@ section {
 		color: white;
 		font-size: 32px;
 		margin-bottom: 10px;
+
+		@media (min-width: 640px) {
+			font-size: 46px;
+			margin-top: -28px;
+		}
 	}
 
 	p {
 		font-size: 15px;
 		font-family: "DM Sans";
+
+		@media (min-width: 640px) {
+			font-size: 18px;
+		}
+	}
+
+	h2,
+	h3,
+	p,
+	div {
+		@media (min-width: 640px) {
+			float: right;
+			width: 50%;
+			clear: both;
+			position: relative;
+		}
 	}
 
 	div {
@@ -319,8 +427,8 @@ section {
 
 		.boxes-information {
 			margin: 0;
-			width: calc(50% - 10px);
-			padding-bottom: 20px;
+			width: calc(25% - 10px);
+			padding-bottom: 0;
 		}
 	}
 }
@@ -328,14 +436,33 @@ section {
 #impacto-ambiental {
 	font-family: "DM Sans";
 
+	@media (min-width: 640px) {
+		clear: both;
+		display: grid;
+		grid-auto-flow: column;
+		grid-gap: 15%;
+		grid-template-rows: 100%;
+		grid-template-columns: 35% 35%;
+		margin-top: 200px;
+	}
+
 	article#estadisticas {
 		text-align: center;
 		padding-top: 50px;
+
+		@media (min-width: 640px) {
+			padding-top: 0;
+		}
+
 		h3 {
 			font-size: 32px;
 			border-radius: 88px;
 			padding: 22px 48px;
 			max-width: 250px;
+
+			@media (min-width: 640px) {
+				font-size: 46px;
+			}
 
 			&.green {
 				background-color: $theme-green;
@@ -345,10 +472,15 @@ section {
 				background-color: $theme-pink;
 			}
 		}
+
 		p {
 			font-size: 15px;
 			padding: 12px 0 47px;
 			font-family: "DM Sans";
+
+			@media (min-width: 640px) {
+				font-size: 20px;
+			}
 		}
 	}
 }
@@ -359,7 +491,20 @@ section {
 		width: 218px;
 		margin: 0 auto;
 		display: block;
+
+		@media (min-width: 640px) {
+			width: 330px;
+			height: auto;
+			float: left;
+		}
 	}
+
+	article {
+		@media (min-width: 640px) {
+			float: right;
+			width: calc(100% - 500px);
+		}
+
 	h2 {
 		padding-top: 40px;
 	}
@@ -381,10 +526,17 @@ section {
 			width: 50%;
 		}
 	}
+	}
+
 }
 
 #aliados {
 	text-align: center;
+
+	@media (min-width: 640px) {
+		padding-left: 30px;
+	}
+
 	h2 {
 		overflow: auto;
 		clear: both;
@@ -392,51 +544,98 @@ section {
 		text-align: left;
 		padding-bottom: 32px;
 	}
+
 	article {
 		max-width: 300px;
 		margin: 0 auto;
 
+		@media (min-width: 640px) {
+			max-width: 975px;
+		}
+
 		img.external-logo {
 			vertical-align: middle;
 			margin: 5px;
+			height: auto;
+
 			&.redBDA {
 				width: 55px;
-				height: 59px;
+
+				@media (min-width: 640px) {
+					width: 100px;
+				}
 			}
+
 			&.food-banking {
 				width: 123px;
-				height: 41px;
+
+				@media (min-width: 640px) {
+					width: 223px;
+				}
 			}
+
 			&.inta {
 				width: 49px;
-				height: 50px;
+
+				@media (min-width: 640px) {
+					width: 89px;
+				}
 			}
+
 			&.uni-mdp {
 				width: 92px;
-				height: 56px;
+
+				@media (min-width: 640px) {
+					width: 168px;
+				}
 			}
+
 			&.w-w {
 				width: 42px;
-				height: 42px;
+
+				@media (min-width: 640px) {
+					width: 76px;
+				}
 			}
+
 			&.alimentaris {
 				width: 122px;
-				height: 30px;
+
+				@media (min-width: 640px) {
+					width: 221px;
+				}
 			}
+
 			&.pepsico {
 				width: 111px;
-				height: 36px;
+
+				@media (min-width: 640px) {
+					width: 201px;
+				}
 			}
+
 			&.corteva {
 				width: 59px;
+
+				@media (min-width: 640px) {
+					width: 107px;
+				}
 			}
+
 			&.terramar {
 				width: 94px;
-				height: 25px;
+
+				@media (min-width: 640px) {
+					width: 171px;
+				}
 			}
+
 			&.basf {
 				width: 60px;
-				height: 21px;
+
+				@media (min-width: 640px) {
+					width: 108px;
+				}
 			}
 		}
 	}
