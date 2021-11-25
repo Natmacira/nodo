@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Site Version: 0.3.1
  * Site author: Natalia Ciraolo
@@ -68,7 +69,7 @@ define('SITE_VERSION', '0.3.1');
 		<span class="decoration-line pink"></span>
 		<span class="decoration-line green"></span>
 		<span class="decoration-line black"></span>
-		<img src="img/picture-worker.png" alt="Un señor trabajando con cajas de verduras." id="picture-worker">
+		<img src="img/picture-worker.jpg" alt="Un señor trabajando con cajas de verduras." id="picture-worker">
 		<h1>Combatimos la inseguridad alimentaria impactando positivamente en el medio ambiente.</h1>
 	</header>
 	<main>
@@ -125,7 +126,7 @@ define('SITE_VERSION', '0.3.1');
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
 				<h3 class="numeros-estadisticas green">100.000</h3>
-				<p>es el promedio de personas beneficiadas por mes</p>
+				<p>1.000.000 de kg fueron entregados hasta Noviembre 2021</p>
 				<h3 class="numeros-estadisticas pink">3.000.000</h3>
 				<p>raciones de comida entregadas hasta Noviembre 2021</p>
 			</div>
@@ -168,8 +169,8 @@ define('SITE_VERSION', '0.3.1');
 			<article>
 				<h2>____ Impacto Ambiental</h2>
 				<h3>Disminuyendo las emisiones de gases y el desperdicio de agua</h3>
-				<p>768.373 KG CO2 eq emisiones de gases de efecto invernadero fueron prevenidas. A su vez, 1.920
-					millones de litros de agua no fueron desperdiciados.</p>
+				<p>1.260.000 KG CO2 eq emisiones de gases de efecto invernadero fueron prevenidas.
+					A su vez, 3.419 millones de litros de agua no fueron desperdiciados.</p>
 			</article>
 			<article id="estadisticas">
 
@@ -182,20 +183,12 @@ define('SITE_VERSION', '0.3.1');
 			</article>
 		</section>
 		<section class="marquee">
-			<marquee id="marquesina-personas-beneficidas">____ 78,601 personas beneficiadas por mes ____ 78,601 personas
-				beneficiadas por mes ____ 78,601 personas beneficiadas por mes ____ 78,601 personas beneficiadas por mes
-				____ 78,601 personas beneficiadas por mes ____ 78,601 personas beneficiadas por mes ____ 78,601 personas
-				beneficiadas por mes ____ 78,601 personas beneficiadas por mes ____ 78,601 personas beneficiadas por mes
-				____ 78,601 personas beneficiadas por mes ____ 78,601 personas beneficiadas por mes ____ 78,601 personas
-				beneficiadas por mes ____ 78,601 personas beneficiadas por mes ____ 78,601 personas beneficiadas por mes____
-				78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas
-				beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____
-				78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas
-				beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____
-				78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas
-				beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____
-				78,601 personas beneficiadas por mes____ 78,601 personas beneficiadas por mes____ 78,601 personas
-				beneficiadas por mes____ 78,601 personas beneficiadas por mes</marquee>
+			<marquee id="marquesina-personas-beneficidas">____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes</marquee>
 		</section>
 		<section id="alcances">
 			<img src="img/map-argentina.png" alt="Un mapa de la republica Argentina con marcaciones en azul de las diferentes zonas donde funciona la ONG" class="marquee-picture mapa">
@@ -245,15 +238,15 @@ define('SITE_VERSION', '0.3.1');
 	</main>
 	<footer>
 		<h2>Hagamos crecer esto <br> juntos. Escribinos a</h2>
-		<a id="contacto" href="mailto:info@nodo.org.ar" class="mail">info@nodo.org.ar</a>
+		<a id="contacto" href="mailto:nodo.org@gmail.com" class="mail">nodo.org@gmail.com</a>
 		<a href="#"><img class="logo-img" src="img/logo-nodo.png" alt="Logo de Nodo"></a>
 		<ul>
 			<li><a class="instagram-link" href="https://instagram.com/nodo.rescate?utm_medium=copy_link" target="_blank">
-				<img src="img/logo-instagram.png" alt="Logo de instagram">
-			</a></li>
+					<img src="img/logo-instagram.png" alt="Logo de instagram">
+				</a></li>
 			<li><a class="linkedin-link" href="https://www.linkedin.com/in/nodo-rescate-de-excedentes-27600b226/" target="_blank">
-				<img src="img/logo-linkedin.png" alt="Logo de Linkedin">
-			</a></li>
+					<img src="img/logo-linkedin.png" alt="Logo de Linkedin">
+				</a></li>
 		</ul>
 	</footer>
 

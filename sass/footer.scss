@@ -6,8 +6,9 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     height: 437px;
-    h2 {
-        color: white;
+
+    @media (min-width: 640px) {
+        padding: 0 30px;
     }
 
     img.logo-img {
@@ -16,6 +17,10 @@ footer {
         position: absolute;
         left: 10px;
         bottom: 40px;
+        @media (min-width: 640px) {
+            padding-left: 25px;
+            width: 163px;
+        }
     }
 
     ul {
@@ -23,6 +28,9 @@ footer {
         bottom: 35px;
         display: flex;
         right: 0;
+        @media (min-width: 640px) {
+            padding-right: 30px;
+        }
     }
 
     h2 {
@@ -36,7 +44,11 @@ footer {
         top: 93px;
         left: 0;
         right: 0;
-		margin: auto;
+        margin: auto;
+
+        @media (min-width: 640px) {
+            font-size: 66px;
+        }
     }
 
     a.mail {
@@ -44,13 +56,20 @@ footer {
         top: 230px;
         left: 0;
         right: 0;
-		margin: auto;
+        margin: auto;
         font-size: 32px;
         font-weight: 400;
         font-family: griffith-gothic-condensed, sans-serif;
         background: rgb(193, 237, 204);
         border-radius: 87px;
-        padding: 20px 50px;
-		width: 282px;
+        padding: 20px;
+        text-align: center;
+        width: 270px;
+
+        @media (min-width: 640px) {
+            font-size: 46px;
+            width: 385px;
+            margin-top: 35px;
+        }
     }
 }
