@@ -1,12 +1,12 @@
 <?php
 /**
- * Site Version: 0.2.0
+ * Site Version: 0.3.0
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '0.2.0');
+define('SITE_VERSION', '0.3.0');
 ?>
 <!DOCTYPE html>
 <html lang="en">
