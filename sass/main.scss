@@ -10,6 +10,8 @@ $theme-black: #333333;
 $theme-green: #c1edcc;
 $theme-pink : #f5beae;
 
+$breakpoint-hamburger : 768px;
+
 @import "normalize";
 @import "fonts";
 @import "skeleton";
