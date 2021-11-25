@@ -38,7 +38,9 @@ body {
 
 		@media (min-width: 640px) {
 			background-image: url(img/background-header-desktop.png);
-			max-height: 700px;
+			background-position-y: -75px;
+			background-size: cover;
+			// padding: 0;
 		}
 
 		h1 {
@@ -54,6 +56,15 @@ body {
 			padding-bottom: 25px;
 			margin-left: auto;
 			margin-right: auto;
+
+			@media (min-width: 640px) {
+				position: absolute;
+				left: 10.4%;
+				margin-top: 0;
+				width: 560px;
+				max-width: none;
+				font-size: 56px;
+			}
 		}
 
 		#picture-worker {
@@ -65,7 +76,11 @@ body {
 			max-width: 500px;
 
 			@media (min-width: 640px) {
-				max-width: 800px;
+				max-width: none;
+				float: right;
+				margin-right: 7%;
+				width: 55%;
+				margin-top: 6%;
 			}
 		}
 
