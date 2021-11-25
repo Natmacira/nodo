@@ -1,5 +1,4 @@
 footer {
-
     position: relative;
     padding: 0 10px;
     background-image: url(img/background-footer-mobile.svg);
@@ -17,7 +16,6 @@ footer {
         position: absolute;
         left: 10px;
         bottom: 40px;
-        
     }
 
     ul {
@@ -31,10 +29,23 @@ footer {
         color: white;
         font-size: 36px;
         font-family: griffith-gothic-condensed, sans-serif;
-        margin: 0 auto;
-        display: block;
         text-align: center;
         font-weight: 900;
         text-transform: none;
+        position: absolute;
+        top: 93px;
+        left: 30px;
+    }
+
+    a.mail {
+        position: absolute;
+        top: 230px;
+        left: 19px;
+        font-size: 32px;
+        font-weight: 400;
+        font-family: griffith-gothic-condensed, sans-serif;
+        background: rgb(193, 237, 204);
+        border-radius: 87px;
+        padding: 20px 50px;
     }
 }
