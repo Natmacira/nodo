@@ -43,7 +43,7 @@ button {
 h2 {
     font-family: "Work Sans";
     font-size: 15px;
-    color: #0066ff;
+    color: $theme-blue;
     text-transform: uppercase;
     font-weight: 300;
 }
@@ -85,7 +85,7 @@ section {
 
     p {
         font-size: 14px;
-        color: #333333;
+        color: $theme-black;
         font-family: "DM Sans";
         width: 88%;
         max-width: 233px;
@@ -149,11 +149,11 @@ section {
                 padding: 22px 48px;
 
                 &.green {
-                    background-color: #c1edcc;
+                    background-color: $theme-green;
                 }
 
                 &.pink {
-                    background-color: #f5beae;
+                    background-color: $theme-pink;
                 }
             }
             p {
@@ -195,11 +195,11 @@ section {
             padding: 22px 48px;
 
             &.green {
-                background-color: #c1edcc;
+                background-color: $theme-green;
             }
 
             &.pink {
-                background-color: #f5beae;
+                background-color: $theme-pink;
             }
         }
         p {
@@ -225,18 +225,18 @@ section {
         margin-bottom: -4px;
 
         &#marquesina-reducir {
-            background-color: #0066ff;
+            background-color: $theme-blue;
             color: white;
         }
 
         &#marquesina-personas-beneficidas {
-            background-color: #c1edcc;
+            background-color: $theme-green;
         }
     }
 }
 
 #objetivos {
-    background-color: #f5beae;
+    background-color: $theme-pink;
     max-width: 800px;
     max-height: 700px;
 
@@ -251,7 +251,7 @@ section {
     }
 
     h2 {
-        color: #f5beae;
+        color: $theme-pink;
         margin-top: -68px;
         padding-bottom: 30px;
     }
@@ -293,11 +293,11 @@ section {
             max-width: 250px;
 
             &.green {
-                background-color: #c1edcc;
+                background-color: $theme-green;
             }
 
             &.pink {
-                background-color: #f5beae;
+                background-color: $theme-pink;
             }
         }
         p {
@@ -326,7 +326,7 @@ section {
     ul {
         font-family: "Work Sans";
         font-size: 15px;
-        color: #0066ff;
+        color: $theme-blue;
         text-transform: uppercase;
         font-weight: 300;
         padding-top: 32px;
@@ -384,7 +384,7 @@ section {
             }
             &.corteva {
                 width: 59px;
-                
+
             }
             &.terramar {
                 width: 94px;
