@@ -1,12 +1,12 @@
 <?php
 /**
- * Site Version: 0.3.0
+ * Site Version: 0.3.1
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '0.3.0');
+define('SITE_VERSION', '0.3.1');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -124,7 +124,7 @@ define('SITE_VERSION', '0.3.0');
 			</article>
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
-				<h3 class="numeros-estadisticas green">78.601</h3>
+				<h3 class="numeros-estadisticas green">100.000</h3>
 				<p>es el promedio de personas beneficiadas por mes</p>
 				<h3 class="numeros-estadisticas pink">3.000.000</h3>
 				<p>raciones de comida entregadas hasta Noviembre 2021</p>
@@ -173,10 +173,10 @@ define('SITE_VERSION', '0.3.0');
 			</article>
 			<article id="estadisticas">
 
-				<h3 class="numeros-estadisticas green">768.383</h3>
+				<h3 class="numeros-estadisticas green">1.260.000</h3>
 				<p>KG CO2 eq emisiones prevenidas</p>
 
-				<h3 class="numeros-estadisticas pink">1.920</h3>
+				<h3 class="numeros-estadisticas pink">3.419</h3>
 				<p>millones de litros de agua no desperdiciados</p>
 
 			</article>
@@ -248,7 +248,7 @@ define('SITE_VERSION', '0.3.0');
 		<a id="contacto" href="mailto:info@nodo.org.ar" class="mail">info@nodo.org.ar</a>
 		<a href="#"><img class="logo-img" src="img/logo-nodo.png" alt="Logo de Nodo"></a>
 		<ul>
-			<li><a class="instagram-link" href="https://www.instagram.com/" target="_blank">
+			<li><a class="instagram-link" href="https://instagram.com/nodo.rescate?utm_medium=copy_link" target="_blank">
 				<img src="img/logo-instagram.png" alt="Logo de instagram">
 			</a></li>
 			<li><a class="linkedin-link" href="https://www.linkedin.com/in/nodo-rescate-de-excedentes-27600b226/" target="_blank">
