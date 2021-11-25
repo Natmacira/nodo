@@ -126,8 +126,8 @@ define('SITE_VERSION', '0.2.0');
 			<div class="promedios">
 				<h3 class="numeros-estadisticas green">78.601</h3>
 				<p>es el promedio de personas beneficiadas por mes</p>
-				<h3 class="numeros-estadisticas pink">1.829.484</h3>
-				<p>raciones de comida entregadas hasta Octubre 2021</p>
+				<h3 class="numeros-estadisticas pink">3.000.000</h3>
+				<p>raciones de comida entregadas hasta Noviembre 2021</p>
 			</div>
 		</section>
 		<section class="marquee">
@@ -198,7 +198,7 @@ define('SITE_VERSION', '0.2.0');
 				beneficiadas por mes____ 78,601 personas beneficiadas por mes</marquee>
 		</section>
 		<section id="alcances">
-			<img src="img/map-Argentina.png" alt="Un mapa de la republica Argentina con marcaciones en azul de las diferentes zonas donde funciona la ONG" class="marquee-picture mapa">
+			<img src="img/map-argentina.png" alt="Un mapa de la republica Argentina con marcaciones en azul de las diferentes zonas donde funciona la ONG" class="marquee-picture mapa">
 			<article>
 				<h2>____ Alcances</h2>
 				<h3>Distribución de alimentos</h3>
@@ -251,7 +251,7 @@ define('SITE_VERSION', '0.2.0');
 			<li><a class="instagram-link" href="https://www.instagram.com/" target="_blank">
 				<img src="img/logo-instagram.png" alt="Logo de instagram">
 			</a></li>
-			<li><a class="linkedin-link" href="https://www.linkedin.com/" target="_blank">
+			<li><a class="linkedin-link" href="https://www.linkedin.com/in/nodo-rescate-de-excedentes-27600b226/" target="_blank">
 				<img src="img/logo-linkedin.png" alt="Logo de Linkedin">
 			</a></li>
 		</ul>

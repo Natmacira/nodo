@@ -51,6 +51,7 @@ h2 {
 h3 {
 	font-size: 26px;
 	font-family: griffith-gothic-condensed, sans-serif;
+	margin-bottom: 10px;
 
 	&.numeros-estadisticas {
 		font-size: 32;
@@ -84,7 +85,7 @@ section {
 	margin: auto;
 
 	p {
-		font-size: 14px;
+		font-size: 15px;
 		color: $theme-black;
 		font-family: "DM Sans";
 		width: 88%;
@@ -106,6 +107,8 @@ section {
 		justify-content: space-between;
 		align-items: center;
 		max-width: 480px;
+		margin: 20px 0 10px 0;
+
 		img.external-logo {
 			&.one {
 				width: 42px;
@@ -157,7 +160,7 @@ section {
 				}
 			}
 			p {
-				font-size: 14px;
+				font-size: 15px;
 				padding: 12px 0 47px;
 				font-family: "DM Sans";
 			}
@@ -203,7 +206,7 @@ section {
 			}
 		}
 		p {
-			font-size: 14px;
+			font-size: 15px;
 			padding: 12px 0 47px;
 			font-family: "DM Sans";
 		}
@@ -275,8 +278,8 @@ section {
 
 		.boxes-information {
 			margin: 0;
-			width: calc(50% - 5px);
-			padding-bottom: 10px;
+			width: calc(50% - 10px);
+			padding-bottom: 20px;
 		}
 	}
 }
@@ -302,7 +305,7 @@ section {
 			}
 		}
 		p {
-			font-size: 14px;
+			font-size: 15px;
 			padding: 12px 0 47px;
 			font-family: "DM Sans";
 		}
