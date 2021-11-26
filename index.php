@@ -1,13 +1,13 @@
 <?php
 
 /**
- * Site Version: 0.3.1
+ * Site Version: 0.5.0
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '0.3.1');
+define('SITE_VERSION', '0.5.0');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -19,23 +19,29 @@ define('SITE_VERSION', '0.3.1');
 	<title>Nodo</title>
 	<link rel="stylesheet" href="style.min.css?v=<?php echo SITE_VERSION; ?>">
 	<script src="js/script.js?v=<?php echo SITE_VERSION; ?>"></script>
-	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon//apple-icon-57x57.png">
-	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon//apple-icon-60x60.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon//apple-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon//apple-icon-76x76.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon//apple-icon-114x114.png">
-	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon//apple-icon-120x120.png">
-	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon//apple-icon-144x144.png">
-	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon//apple-icon-152x152.png">
-	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon//apple-icon-180x180.png">
-	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon//android-icon-192x192.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon//favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon//favicon-96x96.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon//favicon-16x16.png">
-	<link rel="manifest" href="img/favicon//manifest.json">
+	<link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/favicon/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+	<link rel="manifest" href="img/favicon/manifest.json">
 	<meta name="msapplication-TileColor" content="#0066ff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#0066ff">
+	<meta itemProp="image" property="og:image" content="img/logo-nodo-full.png" />
+	<meta property="og:description" content="Combatimos la inseguridad alimentaria impactando positivamente en el medio ambiente.">
+	<meta property="og:locale" content="es_LA">
+	<meta property="og:image" content="img/logo-nodo-full.png" />
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://nodo.org.ar/" />
 </head>
 
 <body>
@@ -125,8 +131,8 @@ define('SITE_VERSION', '0.3.1');
 			</article>
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
-				<h3 class="numeros-estadisticas green">100.000</h3>
-				<p>1.000.000 de kg fueron entregados hasta Noviembre 2021</p>
+				<h3 class="numeros-estadisticas green">1.000.000</h3>
+				<p>KG fueron entregados hasta Noviembre 2021</p>
 				<h3 class="numeros-estadisticas pink">3.000.000</h3>
 				<p>raciones de comida entregadas hasta Noviembre 2021</p>
 			</div>
@@ -183,11 +189,11 @@ define('SITE_VERSION', '0.3.1');
 			</article>
 		</section>
 		<section class="marquee">
-			<marquee id="marquesina-personas-beneficidas">____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
-				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
-				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
-				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
-				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ 
+			<marquee id="marquesina-personas-beneficidas">____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____
+				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____
 				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes</marquee>
 		</section>
 		<section id="alcances">
