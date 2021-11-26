@@ -439,11 +439,22 @@ section {
 		flex-wrap: wrap;
 		padding-top: 26px;
 		justify-content: space-between;
+		max-width: 350px;
+
+		@media (min-width: 640px) {
+			max-width: 100%;
+		}
 
 		.boxes-information {
-			margin: 0;
-			width: calc(25% - 10px);
-			padding-bottom: 0;
+			margin: 0px;
+			width: calc(50% - 7px);
+			padding-bottom: 10px;
+
+			@media (min-width: 640px) {
+				margin: 0;
+				width: calc(25% - 10px);
+				padding-bottom: 0;
+			}
 		}
 	}
 }
