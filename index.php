@@ -36,10 +36,10 @@ define('SITE_VERSION', '0.5.0');
 	<meta name="msapplication-TileColor" content="#0066ff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#0066ff">
-	<meta itemProp="image" property="og:image" content="img/logo-nodo-full.png" />
+	<meta itemProp="image" property="og:image" content="https://nodo.org.ar/img/logo-nodo-full.png" />
 	<meta property="og:description" content="Combatimos la inseguridad alimentaria impactando positivamente en el medio ambiente.">
 	<meta property="og:locale" content="es_LA">
-	<meta property="og:image" content="img/logo-nodo-full.png" />
+	<meta property="og:image" content="https://nodo.org.ar/img/logo-nodo-full.png" />
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://nodo.org.ar/" />
 </head>
