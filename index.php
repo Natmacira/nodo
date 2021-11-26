@@ -7,7 +7,7 @@
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '0.5.0');
+define('SITE_VERSION', '1.0.0');
 ?>
 <!DOCTYPE html>
 <html lang="en">
