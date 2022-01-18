@@ -180,7 +180,7 @@ define('SITE_VERSION', '1.0.0');
 				más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes____ más de 100.000 personas beneficiadas por mes</marquee>
 		</section>
 		<section id="alcances">
-			<img src="img/map-argentina.png" alt="Un mapa de la republica Argentina con marcaciones en azul de las diferentes zonas donde funciona la ONG" class="marquee-picture mapa">
+			<img src="img/MAPA.svg" alt="Un mapa de la republica Argentina con marcaciones en azul de las diferentes zonas donde funciona la ONG" class="marquee-picture mapa">
 			<article>
 				<h2>____ Alcances</h2>
 				<h3>Distribución de alimentos</h3>
@@ -201,6 +201,19 @@ define('SITE_VERSION', '1.0.0');
 					<li class="location">― rosario</li>
 					<li class="location">― la plata</li>
 					<li class="location">― cap. federal</li>
+					<li class="location">― buenos aires</li>
+					<li class="location">― bahía blanca</li>
+					<li class="location">― córdoba</li>
+					<li class="location">― rauch</li>
+					<li class="location">― chascomus</li>
+					<li class="location">― lobería</li>
+					<li class="location">― baradero</li>
+					<li class="location">― gral guido</li>
+					<li class="location">― las heras</li>
+					<li class="location">― san cayetano</li>
+					<li class="location">― las flores</li>
+					<li class="location">― maipú</li>
+					<li class="location">― azul</li>
 				</ul>
 			</article>
 		</section>
@@ -218,6 +231,8 @@ define('SITE_VERSION', '1.0.0');
 				<img class="external-logo corteva" src="img/logo-corteva.png" alt="">
 				<img class="external-logo terramar" src="img/logo-terramar.png" alt="">
 				<img class="external-logo basf" src="img/logo-BASF.png" alt="">
+				<img class="external-logo ifco" src="img/logo-IFCO.png" alt="">
+				<img class="external-logo sanAlberto" src="img/logo-SAN ALBERTO.png" alt="">
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">
@@ -233,7 +248,7 @@ define('SITE_VERSION', '1.0.0');
 			<li><a class="instagram-link" href="https://instagram.com/nodo.rescate?utm_medium=copy_link" target="_blank">
 					<img src="img/logo-instagram.png" alt="Logo de instagram">
 				</a></li>
-			<li><a class="linkedin-link" href="https://www.linkedin.com/in/nodo-rescate-de-excedentes-27600b226/" target="_blank">
+			<li><a class="linkedin-link" href="https://www.linkedin.com/company/nodo-rescate-de-excedentes-27600b226/?lipi=urn%3Ali%3Apage%3Acompanies_company_index%3B2de6c395-1d8d-42d9-987b-ed8c95da3cc9" target="_blank">
 					<img src="img/logo-linkedin.png" alt="Logo de Linkedin">
 				</a></li>
 		</ul>
