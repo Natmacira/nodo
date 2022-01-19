@@ -608,7 +608,7 @@ section {
 		margin: 0 auto;
 
 		@media (min-width: 640px) {
-			max-width: 955px;
+			max-width: 1000px;
 		}
 
 		img.external-logo {
@@ -693,6 +693,22 @@ section {
 
 				@media (min-width: 640px) {
 					width: 108px;
+				}
+			}
+
+			&.ifco {
+				width: 90px;
+
+				@media (min-width: 640px) {
+					width: 140px;
+				}
+			}
+
+			&.sanAlberto {
+				width: 120px;
+
+				@media (min-width: 640px) {
+					width: 165px;
 				}
 			}
 		}
