@@ -1,13 +1,12 @@
 <?php
-
 /**
- * Site Version: 0.5.0
+ * Site Version: 1.0.1
  * Site author: Natalia Ciraolo
  * Author website: https://github.com/Natmacira
  * Author e-mail: natimciraolo@gmail.com
  */
 
-define('SITE_VERSION', '1.0.0');
+define('SITE_VERSION', '1.0.1');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -85,7 +84,7 @@ define('SITE_VERSION', '1.0.0');
 		</section>
 		<section id="quienes-somos">
 			<h2>____ Quiénes somos</h2>
-			<h3>NODO es un proyecto social y colaborativo, impulsado por los Bancos de Alimentos del corredor Mar y
+			<h3>NODO es un proyecto colaborativo, impulsado por los Bancos de Alimentos del corredor Mar y
 				Sierras.</h3>
 			<article>
 				<img class="external-logo one" src="img/logo-banco-de-alimentos-mdp.png" alt="Logo con dos manos verdes del Banco de Alimentos Mar del Plata">
