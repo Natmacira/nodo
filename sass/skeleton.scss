@@ -499,6 +499,14 @@ section {
 		h3 {
 			margin-top: 33px;
 			margin-bottom: 13px;
+
+			@media (min-width: 640px) {
+				font-size: 24px;
+			}
+
+			@media (min-width: 1000px) {
+				font-size: 46px;
+			}
 		}
 	}
 
@@ -517,6 +525,10 @@ section {
 			max-width: 250px;
 
 			@media (min-width: 640px) {
+				font-size: 24px;
+			}
+
+			@media (min-width: 1000px) {
 				font-size: 46px;
 			}
 
@@ -589,10 +601,12 @@ section {
 			text-transform: uppercase;
 			font-weight: 300;
 			padding-top: 32px;
+		
 
 			li {
 				float: left;
 				width: 50%;
+				max-width: 330px;
 
 				@media (min-width: 640px) {
 					font-size: 19px;
