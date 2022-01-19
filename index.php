@@ -117,12 +117,12 @@ define('SITE_VERSION', '1.0.0');
 		</section>
 		<section id="nuestra-mision">
 			<h2>____ Nuestra misión</h2>
-			<h3>Mejorar la calidad de vida de las personas, ayudando a transformar los sistemas de producción, comercialización y consumo de frutas y verduras.</h3>
 			<article>
-				<h3>Reducir las pérdidas y desperdicios de alimentos.</h3>
+				<h3 class="mejorar-reduir-combatir">Mejorar la calidad de vida de las personas, ayudando a transformar los sistemas de producción, comercialización y consumo de frutas y verduras.</h3>
+				<h3 class="mejorar-reduir-combatir">Reducir las pérdidas y desperdicios de alimentos.</h3>
 				<p>El nivel de desperdicio de frutas y verduras en América Latina es cercano al 50% de lo producido,
 					esta problemática es responsable del 8% de los Gases de Efecto Invernadero.</p>
-				<h3>Combatir la inseguridad <br> alimentaria.</h3>
+				<h3 class="mejorar-reduir-combatir">Combatir la inseguridad <br> alimentaria.</h3>
 				<p>En alianza con productores y los Bancos de Alimentos de Argentina, entregamos importantes
 					volúmenes de frutas y verduras a personas que se encuentran en estado de vulnerabilidad social.
 				</p>

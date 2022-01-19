@@ -254,6 +254,14 @@ section {
 		}
 	}
 
+	h3 {
+		@media (min-width: 640px) {
+			&.mejorar-reduir-combatir {
+				font-size: 40px;
+			}
+		}
+	}
+
 	p {
 		font-size: 15px;
 		font-family: "DM Sans";
@@ -281,10 +289,6 @@ section {
 			float: left;
 			clear: left;
 		}
-
-		:nth-child(3) {
-			padding-top: 50px;
-		}
 	}
 
 	div.promedios {
@@ -295,6 +299,7 @@ section {
 		text-align: center;
 
 		@media (min-width: 640px) {
+			padding-top: 30px;
 			clear: both;
 			display: grid;
 			grid-auto-flow: column;
