@@ -232,6 +232,7 @@ define('SITE_VERSION', '1.0.1');
 				<img class="external-logo basf" src="img/logo-BASF.png" alt="">
 				<img class="external-logo ifco" src="img/logo-IFCO.png" alt="">
 				<img class="external-logo sanAlberto" src="img/logo-SAN ALBERTO.png" alt="">
+				<img class="external-logo lima" src="img/logo-lima.jpg" alt="">
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">

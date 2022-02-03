@@ -601,7 +601,7 @@ section {
 			text-transform: uppercase;
 			font-weight: 300;
 			padding-top: 32px;
-		
+
 
 			li {
 				float: left;
@@ -637,7 +637,7 @@ section {
 		margin: 0 auto;
 
 		@media (min-width: 640px) {
-			max-width: 1000px;
+			max-width: 850px;
 		}
 
 		img.external-logo {
@@ -734,6 +734,14 @@ section {
 			}
 
 			&.sanAlberto {
+				width: 120px;
+
+				@media (min-width: 640px) {
+					width: 165px;
+				}
+			}
+
+			&.lima {
 				width: 120px;
 
 				@media (min-width: 640px) {
