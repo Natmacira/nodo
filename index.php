@@ -128,9 +128,9 @@ define('SITE_VERSION', '1.0.3');
 			</article>
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
-				<h3 class="numeros-estadisticas green">2.245.793</h3>
+				<h3 class="numeros-estadisticas green">2.259.068</h3>
 				<p>KG fueron entregados desde 2021</p>
-				<h3 class="numeros-estadisticas pink">6.288.220</h3>
+				<h3 class="numeros-estadisticas pink">6.325.390</h3>
 				<p>raciones de comida entregadas desde 2021</p>
 			</div>
 		</section>
@@ -157,15 +157,15 @@ define('SITE_VERSION', '1.0.3');
 			<article>
 				<h2>____ Impacto Ambiental</h2>
 				<h3>Disminuyendo las emisiones de gases y el desperdicio de agua</h3>
-				<p>2.829.699 KG CO2 eq emisiones de gases de efecto invernadero fueron prevenidas.
-					A su vez, 7.072 millones de litros de agua no fueron desperdiciados.</p>
+				<p>2.846.425 KG CO2 eq emisiones de gases de efecto invernadero fueron prevenidas.
+					A su vez, 7.113 millones de litros de agua no fueron desperdiciados.</p>
 			</article>
 			<article id="estadisticas">
 
-				<h3 class="numeros-estadisticas green">2.829.699</h3>
+				<h3 class="numeros-estadisticas green">2.846.425</h3>
 				<p>KG CO2 eq emisiones prevenidas</p>
 
-				<h3 class="numeros-estadisticas pink">7.072</h3>
+				<h3 class="numeros-estadisticas pink">7.113</h3>
 				<p>millones de litros de agua no desperdiciados</p>
 
 			</article>
@@ -219,20 +219,19 @@ define('SITE_VERSION', '1.0.3');
 		<section id="aliados">
 			<h2>____ Nuestros Aliados</h2>
 			<article>
-				<!-- falta rellenar las descripciones de los logos -->
-				<img class="external-logo redBDA" src="img/logo-redBDA.png" alt="">
-				<img class="external-logo food-banking" src="img/logo-global-food-banking.png" alt="">
-				<img class="external-logo inta" src="img/logo-inta.png" alt="">
-				<img class="external-logo uni-mdp" src="img/logo-universidad-nac-mdp.png" alt="">
-				<img class="external-logo w-w" src="img/logo-w.png" alt="">
-				<img class="external-logo alimentaris" src="img/logo-fundacion-alimentaris.png" alt="">
-				<img class="external-logo pepsico" src="img/logo-pepsico.png" alt="">
-				<img class="external-logo corteva" src="img/logo-corteva.png" alt="">
-				<img class="external-logo terramar" src="img/logo-terramar.png" alt="">
-				<img class="external-logo basf" src="img/logo-BASF.png" alt="">
-				<img class="external-logo ifco" src="img/logo-IFCO.png" alt="">
-				<img class="external-logo sanAlberto" src="img/logo-SAN ALBERTO.png" alt="">
-				<img class="external-logo lima" src="img/logo-lima.jpg" alt="">
+				<img class="external-logo redBDA" src="img/logo-redBDA.png" alt="Logo red BDA">
+				<img class="external-logo food-banking" src="img/logo-global-food-banking.png" alt="Logo Global Food Banking ">
+				<img class="external-logo inta" src="img/logo-inta.png" alt="Logo inta">
+				<img class="external-logo uni-mdp" src="img/logo-universidad-nac-mdp.png" alt="Logo Universidad Nacional de Mar del Plata">
+				<img class="external-logo w-w" src="img/logo-w.png" alt="Logo volkswagen">
+				<img class="external-logo alimentaris" src="img/logo-fundacion-alimentaris.png" alt="Logo Fundación Alimentaris">
+				<img class="external-logo pepsico" src="img/logo-pepsico.png" alt="Logo Pepsico">
+				<img class="external-logo corteva" src="img/logo-corteva.png" alt="Logo Corteva">
+				<img class="external-logo terramar" src="img/logo-terramar.png" alt="Logo Terramar">
+				<img class="external-logo basf" src="img/logo-BASF.png" alt="Logo BASF. Leyenda: We create chemistry">
+				<img class="external-logo ifco" src="img/logo-IFCO.png" alt="Logo IFCO">
+				<img class="external-logo sanAlberto" src="img/logo-SAN ALBERTO.png" alt="Logo San Alberto">
+				<img class="external-logo lima" src="img/logo-lima.jpg" alt="Logo Lima Estudio">
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">
@@ -246,10 +245,13 @@ define('SITE_VERSION', '1.0.3');
 		<a href="#"><img class="logo-img" src="img/logo-nodo.png" alt="Logo de Nodo"></a>
 		<ul>
 			<li><a class="instagram-link" href="https://instagram.com/nodo.rescate?utm_medium=copy_link" target="_blank">
-					<img src="img/logo-instagram.png" alt="Logo de instagram">
+					<img src="img/logo-instagram.png" alt="Logo con link de acceso a instagram">
 				</a></li>
 			<li><a class="linkedin-link" href="https://www.linkedin.com/company/nodo-rescate-de-excedentes-27600b226/?lipi=urn%3Ali%3Apage%3Acompanies_company_index%3B2de6c395-1d8d-42d9-987b-ed8c95da3cc9" target="_blank">
-					<img src="img/logo-linkedin.png" alt="Logo de Linkedin">
+					<img src="img/logo-linkedin.png" alt="Logo con link de acceso a Linkedin">
+				</a></li>
+			<li><a class="linkedin-link" href="https://www.youtube.com/channel/UCcrMCzUJa0qam1fXN9htyEw" target="_blank">
+					<img src="img/youtube-link.png" alt="Logo con link de acceso a youtube">
 				</a></li>
 		</ul>
 	</footer>
