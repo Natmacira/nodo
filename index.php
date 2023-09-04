@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Site Version: 1.0.3
  * Site author: Natalia Ciraolo
@@ -128,9 +129,9 @@ define('SITE_VERSION', '1.0.3');
 			</article>
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
-				<h3 class="numeros-estadisticas green">2.709.619</h3>
+				<h3 class="numeros-estadisticas green">2.862.166</h3>
 				<p>KG fueron entregados desde 2021</p>
-				<h3 class="numeros-estadisticas pink">8.128.857</h3>
+				<h3 class="numeros-estadisticas pink">8.586.498</h3>
 				<p>raciones de comida entregadas desde 2021</p>
 			</div>
 		</section>
@@ -157,16 +158,16 @@ define('SITE_VERSION', '1.0.3');
 			<article>
 				<h2>____ Impacto Ambiental</h2>
 				<h3>Disminuyendo las emisiones de gases y el desperdicio de agua</h3>
-				<p>11.976 KG CO2 eq emisiones de gases de efecto invernadero fueron prevenidas.
-					A su vez, 8.532 millones de litros de agua no fueron desperdiciados.</p>
+				<p>1.265  Toneladas de CO2 eq. emisiones de gases de efecto invernadero fueron preveenidas.
+					A su vez 90158229 m3 de agua no fueron desperdiciadas.</p>
 			</article>
 			<article id="estadisticas">
 
-				<h3 class="numeros-estadisticas green">11.976</h3>
-				<p>KG CO2 eq emisiones prevenidas</p>
+				<h3 class="numeros-estadisticas green">1.265</h3>
+				<p>TN CO2 eq. emisiones prevenidas</p>
 
-				<h3 class="numeros-estadisticas pink">8.532</h3>
-				<p>millones de litros de agua no desperdiciados</p>
+				<h3 class="numeros-estadisticas pink">90158229</h3>
+				<p>m3 de agua no desperdiciada</p>
 
 			</article>
 		</section>
