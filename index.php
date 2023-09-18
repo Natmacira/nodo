@@ -152,6 +152,8 @@ define('SITE_VERSION', '1.0.3');
 				<img src="img/box-reduccion.png" class="boxes-information" alt="Un cuadrado fuccia que contiene en blanco un número diez, unas flechas y la frase REDUCCION DE LAS DESIGUALDADES">
 				<img src="img/box-produccion.png" class="boxes-information" alt="Un cuadrado naranja que contiene en blanco el número doce, el símbolo del infinito y la frase PRODUCCION Y CONSUMOS RESPONSABLES">
 				<img src="img/box-accion.png" class="boxes-information" alt="Un cuadrado verde que contiene en blanco el número 12, el dibujo de un ojo donde la pupila es un planeta tierra, y la frase ACCIÓN POR EL CLIMA">
+				<img src="img/rojo.png" class="boxes-information" alt="Un cuadrado rojo que contiene en blanco el número 4, texto: educación de calidad">
+				<img src="img/azul.png" class="boxes-information" alt="Un cuadrado azul que contiene en blanco el número 17, texto: alianzas para lograr los objetivos">
 			</div>
 		</section>
 		<section id="impacto-ambiental">
@@ -159,14 +161,14 @@ define('SITE_VERSION', '1.0.3');
 				<h2>____ Impacto Ambiental</h2>
 				<h3>Disminuyendo las emisiones de gases y el desperdicio de agua</h3>
 				<p>1.265  Toneladas de CO2 eq. emisiones de gases de efecto invernadero fueron preveenidas.
-					A su vez 90158229 m3 de agua no fueron desperdiciadas.</p>
+					A su vez 9.015.822 m3 de agua no fueron desperdiciadas.</p>
 			</article>
 			<article id="estadisticas">
 
 				<h3 class="numeros-estadisticas green">1.265</h3>
 				<p>TN CO2 eq. emisiones prevenidas</p>
 
-				<h3 class="numeros-estadisticas pink">90158229</h3>
+				<h3 class="numeros-estadisticas pink">9.015.822</h3>
 				<p>m3 de agua no desperdiciada</p>
 
 			</article>
@@ -233,6 +235,7 @@ define('SITE_VERSION', '1.0.3');
 				<img class="external-logo ifco" src="img/logo-IFCO.png" alt="Logo IFCO">
 				<img class="external-logo sanAlberto" src="img/logo-SAN ALBERTO.png" alt="Logo San Alberto">
 				<img class="external-logo lima" src="img/logo-lima.jpg" alt="Logo Lima Estudio">
+				<img class="external-logo lima" src="img/Albor_Logo.png" alt="Logo Albor">
 			</article>
 		</section>
 		<section id="imagenes-galeria-footer">
