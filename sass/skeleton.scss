@@ -458,6 +458,7 @@ section {
 
 		@media (min-width: 640px) {
 			max-width: 100%;
+			justify-content: space-around;
 		}
 
 		.boxes-information {
@@ -469,6 +470,7 @@ section {
 				margin: 0;
 				width: calc(25% - 10px);
 				padding-bottom: 0;
+				margin-bottom: 15px;
 			}
 		}
 	}
