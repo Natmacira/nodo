@@ -129,9 +129,9 @@ define('SITE_VERSION', '1.0.3');
 			</article>
 			<img src="img/picture-truck.jpg" alt="Una foto de una camioneta acarreando un conteiner mediano que transporta mercancía por un camino, el paisaje de alrededor es campestre. Se observa el pasto verde bien cortado con árboles al fondo y al lado de la ruta un poste de electricidad.">
 			<div class="promedios">
-				<h3 class="numeros-estadisticas green">2.962.855</h3>
+				<h3 class="numeros-estadisticas green">3.073.213</h3>
 				<p>KG fueron entregados desde 2021</p>
-				<h3 class="numeros-estadisticas pink">8.888.565</h3>
+				<h3 class="numeros-estadisticas pink">9.219.639</h3>
 				<p>raciones de comida entregadas desde 2021</p>
 			</div>
 		</section>
@@ -160,15 +160,15 @@ define('SITE_VERSION', '1.0.3');
 			<article>
 				<h2>____ Impacto Ambiental</h2>
 				<h3>Disminuyendo las emisiones de gases y el desperdicio de agua</h3>
-				<p>1.309  Toneladas de CO2 eq. emisiones de gases de efecto invernadero fueron preveenidas.
-					A su vez 9.330.030 m3 de agua no fueron desperdiciadas.</p>
+				<p>1.358  Toneladas de CO2 eq. emisiones de gases de efecto invernadero fueron preveenidas.
+					A su vez 9.680.080 m3 de agua no fueron desperdiciadas.</p>
 			</article>
 			<article id="estadisticas">
 
-				<h3 class="numeros-estadisticas green">1.309</h3>
+				<h3 class="numeros-estadisticas green">1.358</h3>
 				<p>TN CO2 eq. emisiones prevenidas</p>
 
-				<h3 class="numeros-estadisticas pink">9.330.030</h3>
+				<h3 class="numeros-estadisticas pink">9.680.080</h3>
 				<p>m3 de agua no desperdiciada</p>
 
 			</article>
