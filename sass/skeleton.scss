@@ -680,10 +680,10 @@ section {
 			}
 
 			&.w-w {
-				width: 42px;
+				width: 122px;
 
 				@media (min-width: 640px) {
-					width: 76px;
+					width: 165px;
 				}
 			}
 
@@ -700,14 +700,6 @@ section {
 
 				@media (min-width: 640px) {
 					width: 201px;
-				}
-			}
-
-			&.corteva {
-				width: 59px;
-
-				@media (min-width: 640px) {
-					width: 107px;
 				}
 			}
 
@@ -743,7 +735,23 @@ section {
 				}
 			}
 
-			&.lima {
+			&.albor {
+				width: 90px;
+
+				@media (min-width: 640px) {
+					width: 130px;
+				}
+			}
+
+			&.naika {
+				width: 120px;
+
+				@media (min-width: 640px) {
+					width: 165px;
+				}
+			}
+
+			&.sumi {
 				width: 120px;
 
 				@media (min-width: 640px) {
